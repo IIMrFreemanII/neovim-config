@@ -1,7 +1,8 @@
 return {
-  "nvim-treesitter/nvim-treesitter",
-  	opts = {
-  		ensure_installed = {
+  {
+    "nvim-treesitter/nvim-treesitter",
+    opts = {
+      ensure_installed = {
         "json",
         "html",
         "css",
@@ -14,21 +15,18 @@ return {
         "prisma",
         "markdown",
         "markdown_inline",
-        "qraphql",
+        -- "qraphql",
         "bash",
         "dockerfile",
         "gitignore",
         "query",
-        "vimdoc",
         "c",
         "cpp",
         "swift",
-        "vim",
-        "lua",
-        "vimdoc",
         "glsl",
         "objc",
-        "toml"
-  		},
-  	},
+        "toml",
+      },
+    },
+  },
 }
