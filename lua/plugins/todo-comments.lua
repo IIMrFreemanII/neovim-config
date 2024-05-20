@@ -3,8 +3,11 @@ return {
   event = { "BufReadPre", "BufNewFile" },
   dependencies = { "nvim-lua/plenary.nvim" },
   config = function()
-    local todo_comments = require("todo-comments")
-
+    local todo_comments = require "todo-comments"
+    -- TODO: some work
+    -- HACK: some hack
+    -- BUG: soem bug
+    --
     -- set keymaps
     local keymap = vim.keymap -- for conciseness
 
